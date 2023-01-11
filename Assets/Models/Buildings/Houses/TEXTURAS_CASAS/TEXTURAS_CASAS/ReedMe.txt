@@ -1,0 +1,4 @@
+Todos los edificios tienen columnas y vigas que se aprecian desde fuera, canalones y doble ventana, esas secciones van con la textura de madera.
+La textura de escalera corresponde a todas las escaleras de las casas y la rampa de la iglesia.
+La iglesia y el almacén son completamente de ladrillos no tienen textura de pared de yeso.
+Las ventanas circulares solo van con textura de cristal y las chimeneas utilizan la misma textura de ladrillos correpondiente a cada casa.
