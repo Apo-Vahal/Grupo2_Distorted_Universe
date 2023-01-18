@@ -39,18 +39,39 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movement = Vector3.zero;
 
+        float auxSpeed = playerSpeed;
+        if (Input.GetButton("Run"))
+        {
+            auxSpeed = playerSpeed * 1.7f;
+            //GetComponent<Animator>().Play("Run");
+        }
+
+        if (Input.GetButton("Crouch"))
+        {
+            auxSpeed = playerSpeed * 0.5f;
+            //GetComponent<Animator>().Play("Crouch");
+        }
+
         if (Mathf.Abs(x) > 0 || Mathf.Abs(z) > 0)//movement with "a,w,s,d" key on "y" and "x"
         {
+
             movement = transform.forward * z + transform.up * -gravityForce + transform.right * x;
-            movement *= playerSpeed;
-            movement.y /= playerSpeed;
-            //anim.Play("Idle");
+            movement *= auxSpeed;
+            movement.y /= auxSpeed;
+            //GetComponent<Animator>().Play("Walk");
             //Debug.Log(" x " + x + " z " + z);
         }
+        Vector3 auxMov = movement;
+        auxMov.y = 0;
+        Debug.Log(auxMov.magnitude / (playerSpeed * 1.7f));
+        GetComponent<Animator>().SetFloat("Speed", auxMov.magnitude / (playerSpeed * 1.7f), 0.05f, Time.deltaTime);
+
+
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             Yvelocity = 0;
             Yvelocity += 10f;
+            GetComponent<Animator>().Play("Jump");
         }
         Yvelocity -= gravityForce * Time.deltaTime;
         movement.y = Yvelocity;
