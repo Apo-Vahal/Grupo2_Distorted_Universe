@@ -6,7 +6,7 @@ public class StateMachine : MonoBehaviour
 {
 
     public State startingState;
-    private State currentState;
+    public State currentState;
     // Codigo de la maquina de estados, para saber en que estado estas(privado) y para que pueda pasar al siguiente estado.
     void Start()
     {
