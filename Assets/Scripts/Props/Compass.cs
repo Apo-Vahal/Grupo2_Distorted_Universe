@@ -7,7 +7,7 @@ public class Compass : MonoBehaviour
 {
     public Vector3 NorthDirection; //Dirección del Norte. 
     public Transform Player; //Posición del jugador.
-    public RectTransform NorthLayer; 
+    public Transform NorthLayer; 
    
     void Update()
     {
