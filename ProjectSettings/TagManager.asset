@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - lb_groundTarget
   - lb_perchTarget
+  - Item
   layers:
   - Default
   - TransparentFX

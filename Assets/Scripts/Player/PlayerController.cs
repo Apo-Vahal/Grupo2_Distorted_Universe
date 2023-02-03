@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -22,14 +23,21 @@ public class PlayerController : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody>();
+
+
+        StreamReader sr = new StreamReader(Application.persistentDataPath + "Archivo.txt");
+
+
+        float x = float.Parse(sr.ReadLine());
+        float y = float.Parse(sr.ReadLine());
+        float z = float.Parse(sr.ReadLine());
+        transform.position = new Vector3(x, y, z);
     }
 
 
     void Update()
     {
         Move();
-
-
     }
     void Move()
     {
@@ -72,5 +80,19 @@ public class PlayerController : MonoBehaviour
         movement.y = Yvelocity;
         movement *= Time.deltaTime;
         controller.Move(movement);
+    }
+
+    private void OnDisable()
+    {
+        FileStream fs = File.Create(Application.persistentDataPath + "Archivo.txt");
+
+        StreamWriter sw = new StreamWriter(fs);
+
+        sw.WriteLine(transform.position.x);
+        sw.WriteLine(transform.position.y);
+        sw.WriteLine(transform.position.z);
+
+        sw.Close();
+        fs.Close();
     }
 }
