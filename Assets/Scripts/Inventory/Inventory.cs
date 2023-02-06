@@ -61,10 +61,9 @@ public class Inventory : MonoBehaviour
                 slot[i].GetComponent<Slots>().type = itemType;
                 slot[i].GetComponent<Slots>().descripcion = itemDescription;
                 slot[i].GetComponent<Slots>().icon = itemIcon;
-
                 itemsObject.transform.parent = slot[i].transform;
                 itemsObject.SetActive(false);
-                slot[i].GetComponent<Slots>().UpdateSlots();
+                slot[i].GetComponent<Slots>().UpdateSlot();
                 slot[i].GetComponent<Slots>().empty = false;
 
                 return; // evitar que el objeto se añada en todos los slots vacios

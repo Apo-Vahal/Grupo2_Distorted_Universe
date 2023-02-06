@@ -17,9 +17,13 @@ public class Slots : MonoBehaviour
     {
         slotIconGameObject = transform.GetChild(0);
     }
-    public void UpdateSlots()
+
+
+    public void UpdateSlot()
     {
+        Debug.Log("ASSAD");
         slotIconGameObject.GetComponent<Image>().sprite = icon;
     }
 
+  
 }
