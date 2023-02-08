@@ -25,13 +25,13 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
 
-        StreamReader sr = new StreamReader(Application.persistentDataPath + "Archivo.txt");
+       // StreamReader sr = new StreamReader(Application.persistentDataPath + "Archivo.txt");
 
 
-        float x = float.Parse(sr.ReadLine());
-        float y = float.Parse(sr.ReadLine());
-        float z = float.Parse(sr.ReadLine());
-        transform.position = new Vector3(x, y, z);
+        //float x = float.Parse(sr.ReadLine());
+        //float y = float.Parse(sr.ReadLine());
+       // float z = float.Parse(sr.ReadLine());
+       // transform.position = new Vector3(x, y, z);
     }
 
 
@@ -82,17 +82,17 @@ public class PlayerController : MonoBehaviour
         controller.Move(movement);
     }
 
-    private void OnDisable()
-    {
-        FileStream fs = File.Create(Application.persistentDataPath + "Archivo.txt");
+    //private void OnDisable()
+    //{
+      //  FileStream fs = File.Create(Application.persistentDataPath + "Archivo.txt");
 
-        StreamWriter sw = new StreamWriter(fs);
+      //  StreamWriter sw = new StreamWriter(fs);
 
-        sw.WriteLine(transform.position.x);
-        sw.WriteLine(transform.position.y);
-        sw.WriteLine(transform.position.z);
+      //  sw.WriteLine(transform.position.x);
+      //  sw.WriteLine(transform.position.y);
+       // sw.WriteLine(transform.position.z);
 
-        sw.Close();
-        fs.Close();
-    }
+       // sw.Close();
+      //  fs.Close();
+    //}
 }
