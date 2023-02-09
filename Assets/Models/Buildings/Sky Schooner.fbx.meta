@@ -2,7 +2,25 @@ fileFormatVersion: 2
 guid: ce73990cf1b502c46880f64d38b0ce77
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 6814695174572121489
+    second: Gear2|HornsAction.001
+  - first:
+      74: -2909800134243502258
+    second: Gear2|WheelAction
+  - first:
+      74: 6697161592178318889
+    second: Horns|HornsAction.001
+  - first:
+      74: -4664135412129622550
+    second: Horns|WheelAction
+  - first:
+      74: 7105926011100091698
+    second: Wheel|HornsAction.001
+  - first:
+      74: 167326759095770436
+    second: Wheel|WheelAction
   externalObjects: {}
   materials:
     materialImportMode: 2

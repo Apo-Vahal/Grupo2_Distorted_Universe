@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Open_Wordl.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Casa_Musico.unity
+    guid: 58b50f0e87a12e04a9c3d66d0b95593a
+  - enabled: 1
+    path: Assets/Scenes/Ruins.unity
+    guid: 1e06e7522b23d7d4697a3f1305122ddd
+  - enabled: 1
+    path: Assets/Scenes/Tavern.unity
+    guid: 74bea1745c401f043a98b877eca22483
   m_configObjects: {}
