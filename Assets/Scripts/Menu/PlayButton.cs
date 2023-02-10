@@ -7,6 +7,6 @@ public class PlayButton : MonoBehaviour
 {
   public void StartGameClick()
     {
-        SceneManager.LoadScene("HD-MedievalVillage_Demo");
+        SceneManager.LoadScene("Animation");
     }
 }
