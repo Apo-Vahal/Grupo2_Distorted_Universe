@@ -45,7 +45,7 @@ public class Dialogue : MonoBehaviour
         {
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
-            dialogueNPC.SetActive(true);
+            //dialogueNPC.SetActive(true);
             Time.timeScale = 1f;
         }
     }
@@ -54,7 +54,7 @@ public class Dialogue : MonoBehaviour
     {
         didDialoguelogueStart = true;
         dialoguePanel.SetActive(true);
-        dialogueNPC.SetActive(false);
+        //dialogueNPC.SetActive(false);
         lineIndex = 0;
         Time.timeScale = 0f;
         StartCoroutine(Showline());
@@ -78,13 +78,13 @@ public class Dialogue : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
             isPlayerInRange = true;
-        dialogueNPC.SetActive(true);
+        //dialogueNPC.SetActive(true);
     }
 
     private void OnTriggerExit(Collider collision)
     {
         if (collision.gameObject.CompareTag("Player"))
             isPlayerInRange = false;
-        dialogueNPC.SetActive(false);
+        //dialogueNPC.SetActive(false);
     }
 }
