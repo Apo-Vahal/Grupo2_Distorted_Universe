@@ -5,17 +5,24 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
-    [SerializeField] private GameObject dialogueNPC;
+    [System.Serializable]
+    struct Conver
+    {
+        public string[] lineas;
+    }
+
+    //[SerializeField] private GameObject dialogueNPC;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     private float typingTime = 0.05f;
-    [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
+    [SerializeField] private Conver[] dialogueLines;
     private bool isPlayerInRange;
     private bool didDialoguelogueStart;
     private int lineIndex;
+    private int converIndex = 0; 
     private bool didDialogueStart;
 
-    // Update is called once per frame
+    //Update is called once per frame
     void Update()
     {
         if (Input.GetKey(KeyCode.V))
@@ -24,7 +31,7 @@ public class Dialogue : MonoBehaviour
             {
                 StartDialogue();
             }
-            else if (dialogueText.text == dialogueLines[lineIndex])
+            else if (dialogueText.text == dialogueLines[converIndex].lineas[lineIndex])
             {
                 NextDialogueLines();
             }
@@ -64,7 +71,7 @@ public class Dialogue : MonoBehaviour
     private IEnumerator Showline()
     {
         dialogueText.text = string.Empty;
-        foreach (char ch in dialogueLines[lineIndex])
+        foreach (char ch in dialogueLines[converIndex].lineas[lineIndex])
         {
             dialogueText.text += ch;
             yield return new WaitForSecondsRealtime(typingTime);

@@ -25,8 +25,8 @@ public class Inventory : MonoBehaviour
                 slot[i].GetComponent<Slots>().empty = true;
             }
         }
-            
 
+        inventory.SetActive(false);
         
     }
 

@@ -13,7 +13,7 @@ public class Slots : MonoBehaviour
     public bool empty; // Para saber si el slots esta vacio
     public Sprite icon;
     public Transform slotIconGameObject;
-    private void Start()
+    private void OnDisable()
     {
         slotIconGameObject = transform.GetChild(0);
     }
