@@ -2364,6 +2364,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -6.811
       objectReference: {fileID: 0}
+    - target: {fileID: 5092712703677177071, guid: b7d4fe34ca8b23e43a2b1db708df06e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5092712703677177071, guid: b7d4fe34ca8b23e43a2b1db708df06e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5092712703677177071, guid: b7d4fe34ca8b23e43a2b1db708df06e8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6583210674676621530, guid: b7d4fe34ca8b23e43a2b1db708df06e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.73
@@ -2376,7 +2388,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.86
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5092712703677177070, guid: b7d4fe34ca8b23e43a2b1db708df06e8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b7d4fe34ca8b23e43a2b1db708df06e8, type: 3}
 --- !u!1001 &632360417
 PrefabInstance:
@@ -4416,6 +4429,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.18325806, y: 1, z: 1}
   m_Center: {x: -0.40837097, y: 0, z: 0}
+--- !u!1 &1208005276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5092712703677177064, guid: b7d4fe34ca8b23e43a2b1db708df06e8, type: 3}
+  m_PrefabInstance: {fileID: 595034600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1208005280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208005276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471fdcf1b834f3646a3ea48865b3896c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelchange: Tavern
 --- !u!1001 &1217544459
 PrefabInstance:
   m_ObjectHideFlags: 0
