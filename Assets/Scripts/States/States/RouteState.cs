@@ -10,24 +10,28 @@ public class RouteState : State
     public Vector3[] WayPoints;
     private int nextWayPoint = 0;
     private float curretime = 0;
+    
 
 
     public override State Run(GameObject owner, float time)
     {
+       
         owner.GetComponent<NavMeshAgent>().SetDestination(WayPoints[nextWayPoint]);
         float distance = Vector3.Distance(owner.transform.position, WayPoints[nextWayPoint]); // con la distancia le indicamos cuando tiene que cambiar wayPoints
-        
+
+        if (distance <= 3.0f)
+        {
             curretime += time;
 
-            if(curretime >= 5.0f) 
+            if (curretime >= 5.0f)
             {
                 nextWayPoint = (nextWayPoint + 1) % WayPoints.Length; // Codigo para que pueda cambiar al siguiente WayPoints
                 curretime = 0;
                 owner.GetComponent<Animator>().Play("Walk");
-
             }
-            
-        if (action[0].Check(owner))
+
+        }
+        if (!action[0].Check(owner))
         {
             return nextState[0];
 

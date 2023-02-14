@@ -9,6 +9,7 @@ public class FollowState : State
 {
     public override State Run(GameObject owner, float time)
     {
+        owner.GetComponent<Animator>().Play("Run");
         GameObject obj = owner.GetComponent<PlayerRef>().player; // Utilizamos la referencia del Player para saber a quien tiene que seguir.
         owner.GetComponent<NavMeshAgent>().SetDestination(obj.transform.position);
 

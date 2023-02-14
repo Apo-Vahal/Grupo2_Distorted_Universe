@@ -10,7 +10,7 @@ public class HearAction : Actions
     public override bool Check(GameObject owner)
     {
         RaycastHit[] info =
-        Physics.SphereCastAll(owner.transform.position, 10, Vector3.up); 
+        Physics.SphereCastAll(owner.transform.position, 50, Vector3.up); 
 
         foreach (RaycastHit col in info)
         {

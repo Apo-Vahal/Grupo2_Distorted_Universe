@@ -9,9 +9,9 @@ public class IdleState : State
 {
     public override State Run(GameObject owner, float time)
     {
-        owner.GetComponent<Animator>().Play("Z_Idle"); // Cuando este en este estado, realizara la animacion indicada
+        owner.GetComponent<Animator>().Play("Idle"); // Cuando este en este estado, realizara la animacion indicada
         GameObject obj = owner.GetComponent<PlayerRef>().player; //Indicamos la referencia del player
-        owner.GetComponent<NavMeshAgent>().SetDestination(new Vector3 (0f, 0f, -10.7f)); // Indicar la posicion
+        owner.GetComponent<NavMeshAgent>().SetDestination(new Vector3(865f, 83f, 255f)); // Indicar la posicion
 
         if (action[0].Check(owner))
         {

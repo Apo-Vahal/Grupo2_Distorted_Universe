@@ -30,6 +30,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Animation/Animation.unity
     guid: d8cee08d3888d2c4eac570d7ac458adb
   - enabled: 1
-    path: Assets/Scenes/Creditos.unity
-    guid: 0803d81a38b28dd4f9f494f007a78d02
+    path: Assets/Scenes/Animation/Creditos.unity
+    guid: b346bcdd1bd51884ab4773685693e9cf
   m_configObjects: {}

@@ -1169,6 +1169,7 @@ GameObject:
   - component: {fileID: 6878892910564182038}
   - component: {fileID: 3801759693635809409}
   - component: {fileID: 60972011606615001}
+  - component: {fileID: 837157815643848458}
   m_Layer: 0
   m_Name: Gnomo
   m_TagString: Untagged
@@ -1212,10 +1213,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b9c0fa430842b344a0cfcdbe24bf70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueNPC: {fileID: 0}
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
   dialogueLines: []
+  lineIndex: 0
+  converIndex: 0
 --- !u!65 &3801759693635809409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1249,6 +1251,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &837157815643848458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536951822129832196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401f53de7ca234a458a4b96598e7cced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gnomo: {fileID: 6878892910564182038}
+  portalRuinas: {fileID: 0}
 --- !u!1 &3636205906094222901
 GameObject:
   m_ObjectHideFlags: 0
