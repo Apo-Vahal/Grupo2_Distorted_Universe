@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 408438, guid: 05db1ac0b57644d43ac9e10b67af3609, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 408438, guid: 05db1ac0b57644d43ac9e10b67af3609, type: 3}
       propertyPath: m_LocalScale.x
@@ -205,7 +205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 407128, guid: 464afa0f12c264252910b2b6fd15c1b7, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 407128, guid: 464afa0f12c264252910b2b6fd15c1b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -274,7 +274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 463312, guid: 2ae614d33f85f40239ca4ab3840e118b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 463312, guid: 2ae614d33f85f40239ca4ab3840e118b, type: 3}
       propertyPath: m_LocalScale.x
@@ -343,7 +343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473002, guid: b639fd0347adb472b8d9d68c2da3f05a, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 473002, guid: b639fd0347adb472b8d9d68c2da3f05a, type: 3}
       propertyPath: m_LocalScale.x
@@ -504,7 +504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 444112, guid: 85928ae57d992400f8102f2ab7aa15b3, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 444112, guid: 85928ae57d992400f8102f2ab7aa15b3, type: 3}
       propertyPath: m_LocalScale.x
@@ -573,7 +573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 457186, guid: c73d7de9173f7485a99591633cbac7ef, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 457186, guid: c73d7de9173f7485a99591633cbac7ef, type: 3}
       propertyPath: m_LocalScale.x
@@ -646,7 +646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 457186, guid: c73d7de9173f7485a99591633cbac7ef, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 457186, guid: c73d7de9173f7485a99591633cbac7ef, type: 3}
       propertyPath: m_LocalScale.x
@@ -723,7 +723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 459574, guid: d5caf732deebe4d4cbf9b994f45b28ce, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 459574, guid: d5caf732deebe4d4cbf9b994f45b28ce, type: 3}
       propertyPath: m_LocalScale.x
@@ -792,7 +792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422412, guid: ff61d787c0e1942fcb2f4e51580eb3cd, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 422412, guid: ff61d787c0e1942fcb2f4e51580eb3cd, type: 3}
       propertyPath: m_LocalScale.x
@@ -869,7 +869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 463318, guid: 17286f8a5727f433399cb228b21d3b74, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 463318, guid: 17286f8a5727f433399cb228b21d3b74, type: 3}
       propertyPath: m_LocalScale.x
@@ -1017,7 +1017,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1165839866
 PrefabInstance:
@@ -1032,7 +1032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 417226, guid: 69f0665d402924e48ba67fd89c789708, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 417226, guid: 69f0665d402924e48ba67fd89c789708, type: 3}
       propertyPath: m_LocalScale.x
@@ -1096,31 +1096,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a6d1e302ecc5fa2419013a666d1adac0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69f0665d402924e48ba67fd89c789708, type: 3}
---- !u!1 &1186497314 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6960344952141738769, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-  m_PrefabInstance: {fileID: 7807400118968546610}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1186497319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186497314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b9c0fa430842b344a0cfcdbe24bf70b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 1905939895}
-  dialogueText: {fileID: 1905939894}
-  dialogueLines:
-  - lineas:
-    - 1
-  - lineas:
-    - 2
-  converIndex: 0
 --- !u!1001 &1291620684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1134,7 +1109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4860656748921986536, guid: 80ebd9df394fc2547bcece70062f83dd, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4860656748921986536, guid: 80ebd9df394fc2547bcece70062f83dd, type: 3}
       propertyPath: m_LocalScale.x
@@ -1282,7 +1257,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 93.98001, y: 0, z: 0}
 --- !u!1 &1503627106
 GameObject:
@@ -1376,7 +1351,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 93.98001, y: 0, z: 0}
 --- !u!1001 &1527931525
 PrefabInstance:
@@ -1391,7 +1366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422412, guid: ff61d787c0e1942fcb2f4e51580eb3cd, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 422412, guid: ff61d787c0e1942fcb2f4e51580eb3cd, type: 3}
       propertyPath: m_LocalScale.x
@@ -1536,7 +1511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 438592, guid: cd7487cba09c84b3e8f8bbf6ee780472, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 438592, guid: cd7487cba09c84b3e8f8bbf6ee780472, type: 3}
       propertyPath: m_LocalScale.x
@@ -1605,7 +1580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473002, guid: b639fd0347adb472b8d9d68c2da3f05a, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 473002, guid: b639fd0347adb472b8d9d68c2da3f05a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1787,7 +1762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7384969201026705981, guid: c09e1e8fb3dee7947a870ec97685fe18, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 7384969201026705981, guid: c09e1e8fb3dee7947a870ec97685fe18, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1924,7 +1899,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1319286799368297023, guid: e140f6450cdfe3a45b11d08cdb7c92d6, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1319286799368297023, guid: e140f6450cdfe3a45b11d08cdb7c92d6, type: 3}
       propertyPath: m_LocalScale.x
@@ -2031,7 +2006,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8226718150515772736, guid: 6e7d63501f5f3cc41ae62c3a4269061f, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8226718150515772736, guid: 6e7d63501f5f3cc41ae62c3a4269061f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2096,7 +2071,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7485470847078666281, guid: e719e1355b1e3614a823efcc2b0de692, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7485470847078666281, guid: e719e1355b1e3614a823efcc2b0de692, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2163,87 +2138,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 1905939894}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialoguePanel
-      value: 
-      objectReference: {fileID: 1905939895}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: convers.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[0]
-      value: "Ah, al fin llegaste. Pensaba que se te habr\xEDan pegado las s\xE1banas
-        o algo\u2026 En fin, vayamos al l\xEDo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[1]
-      value: "Ayer recib\xED la visita de un pobre desgraciado; bueno, es un m\xFAsico,
-        pero por su lamentable aspecto parec\xEDa m\xE1s un vagabundo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[2]
-      value: "Me dijo algo sobre una partitura y que necesitaba la ayuda del gremio
-        para recuperarla. \xBFTe haces cargo?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[3]
-      value: "Perfecto. Deber\xE1s dirigirte a la ciudad y encontrar una casa con
-        un cartel que indique su presencia. Buena suerte."
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[0].lineas.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[1].lineas.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: convers.Array.data[0].dialogueLines.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[0].lineas.Array.data[0]
-      value: "Ah, al fin llegaste. Pensaba que se te habr\xEDan pegado las s\xE1banas
-        o algo\u2026 En fin, vayamos al l\xEDo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[0].lineas.Array.data[1]
-      value: "Ayer recib\xED la visita de un pobre desgraciado; bueno, es un m\xFAsico,
-        pero por su lamentable aspecto parec\xEDa m\xE1s un vagabundo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[0].lineas.Array.data[2]
-      value: "Me dijo algo sobre una partitura y que necesitaba la ayuda del gremio
-        para recuperarla. \xBFTe haces cargo?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[0].lineas.Array.data[3]
-      value: "Perfecto. Dir\xEDgete a la ciudad y busca una casa con un cartel que
-        indique su presencia. Buena Suerte."
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[1].lineas.Array.data[0]
-      value: "\xBFTodav\xEDa sigues por aqu\xED? Deber\xEDas estar yendo a la ciudad.
-        Mira que no quiero que la reputaci\xF3n del gremio caiga m\xE1s de lo debido."
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
-      propertyPath: dialogueLines.Array.data[1].lineas.Array.data[1]
-      value: "\xBFUn trago? JE. \xBFY c\xF3mo piensas pagarme?"
-      objectReference: {fileID: 0}
     - target: {fileID: 6960344952141738769, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
       propertyPath: m_Name
       value: Androide
@@ -2278,7 +2172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7769778597243857323, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7769778597243857323, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2320,6 +2214,98 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1342600950664896066, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 1905939894}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1905939895}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[0].lineas.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[1].lineas.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[2].lineas.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[0].lineas.Array.data[0]
+      value: "Vale, perfecto, todo en orden. Reglas b\xE1sicas: no molestes y no
+        molestes. Eso ser\xEDa todo, contin\xFAe."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[0].lineas.Array.data[1]
+      value: "Ayer recib\xED la visita de un pobre desgraciado; bueno, es un m\xFAsico,
+        pero por su lamentable aspecto parec\xEDa m\xE1s un vagabundo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[0].lineas.Array.data[2]
+      value: "Me dijo algo sobre una partitura y que necesitaba la ayuda del gremio
+        para recuperarla. \xBFTe haces cargo?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[1].lineas.Array.data[0]
+      value: "\xBFTodav\xEDa sigues por aqu\xED? Deber\xEDas estar yendo a la ciudad.
+        Mira que no quiero que la reputaci\xF3n del gremio caiga m\xE1s de lo debido"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[1].lineas.Array.data[1]
+      value: "\xBFUn trago? JE. \xBFY c\xF3mo piensas pagarme? Bueno, ahora que lo
+        dices\u2026 tengo una proposici\xF3n. No me malentiendas, no es nada indecente\u2026
+        por el momento."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[1].lineas.Array.data[2]
+      value: "Se trata de mi pipa, ya sabes, mi sustento de vida\u2026 figurativamente,
+        claro, JE JE."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[1].lineas.Array.data[3]
+      value: "Me la quit\xF3 aquel individuo que pasea por el puerto con una escafandra
+        en la cabeza. No s\xE9 ni qui\xE9n es, pero es la \xFAltima vez que le invito
+        a un trago."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[1].lineas.Array.data[4]
+      value: "Si me devuelves la pipa, te invito yo mismo al trago; \xA1palabra de
+        androide!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[2].lineas.Array.data[0]
+      value: "\xBFSin mi pipa y sin el dinero de la misi\xF3n? Tienes agallas para
+        aparecer por aqu\xED, lo admito\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[2].lineas.Array.data[1]
+      value: "\xBFUn trago? JE. \xBFY c\xF3mo piensas pagarme? Bueno, ahora que lo
+        dices\u2026 tengo una proposici\xF3n. No me malentiendas, no es nada indecente\u2026
+        por el momento."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[2].lineas.Array.data[2]
+      value: "Se trata de mi pipa, ya sabes, mi sustento de vida\u2026 figurativamente,
+        claro, JE JE."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[2].lineas.Array.data[3]
+      value: "Me la quit\xF3 aquel individuo que pasea por el puerto con una escafandra
+        en la cabeza. No s\xE9 ni qui\xE9n es, pero es la \xFAltima vez que le invito
+        a un trago."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221858178541666078, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}
+      propertyPath: dialogueLines.Array.data[2].lineas.Array.data[4]
+      value: "Si me devuelves la pipa, te invito yo mismo al trago; \xA1palabra de
+        androide!"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8ec212bfedb78a419cb6b912a1b3e31, type: 3}

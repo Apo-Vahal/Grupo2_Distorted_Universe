@@ -2318,7 +2318,6 @@ GameObject:
   - component: {fileID: 6310705306402654993}
   - component: {fileID: 6664807224612228767}
   - component: {fileID: 2859033115754608667}
-  - component: {fileID: 1290258158904841297}
   - component: {fileID: 4095702168357056673}
   m_Layer: 0
   m_Name: Soldado
@@ -2361,13 +2360,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b9c0fa430842b344a0cfcdbe24bf70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueNPC: {fileID: 0}
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
   dialogueLines:
-  - 
-  - 
-  - 
+  - lineas: []
+  - lineas: []
+  - lineas: []
+  lineIndex: 0
+  converIndex: 0
 --- !u!64 &2859033115754608667
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2382,24 +2382,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!143 &1290258158904841297
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6692333270807204267}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &4095702168357056673
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2411,8 +2393,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.0405884, y: 7.523201, z: 2.8389893}
+  m_Center: {x: -0.0798645, y: 3.2616005, z: 0.051940918}
 --- !u!1 &6714656482049294835
 GameObject:
   m_ObjectHideFlags: 0

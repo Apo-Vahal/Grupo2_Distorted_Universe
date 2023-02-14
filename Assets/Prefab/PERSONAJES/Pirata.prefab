@@ -107,6 +107,8 @@ GameObject:
   - component: {fileID: 510075145919918089}
   - component: {fileID: 44648804385341128}
   - component: {fileID: 44648804385341131}
+  - component: {fileID: -3966088615458289376}
+  - component: {fileID: -7628353866376416896}
   m_Layer: 0
   m_Name: Pirata
   m_TagString: Untagged
@@ -166,7 +168,35 @@ MonoBehaviour:
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
   dialogueLines: []
+  lineIndex: 0
   converIndex: 0
+--- !u!64 &-3966088615458289376
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891701765798341299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!65 &-7628353866376416896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891701765798341299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1076625432252169879
 GameObject:
   m_ObjectHideFlags: 0

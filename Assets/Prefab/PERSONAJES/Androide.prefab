@@ -1847,7 +1847,7 @@ GameObject:
   - component: {fileID: 7769778597243857323}
   - component: {fileID: 7807400118831810480}
   - component: {fileID: 7745240865197063971}
-  - component: {fileID: 1342600950664896066}
+  - component: {fileID: 9221858178541666078}
   m_Layer: 0
   m_Name: Androide
   m_TagString: Untagged
@@ -1905,7 +1905,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1342600950664896066
+--- !u!114 &9221858178541666078
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1917,10 +1917,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b9c0fa430842b344a0cfcdbe24bf70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueNPC: {fileID: 0}
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
-  dialogueLines: []
+  dialogueLines:
+  - lineas:
+    - 1
+    - 2
+  - lineas:
+    - 3
+    - 4
+  converIndex: 0
 --- !u!1 &7077156070143190837
 GameObject:
   m_ObjectHideFlags: 0

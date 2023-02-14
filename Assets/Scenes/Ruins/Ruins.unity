@@ -1846,6 +1846,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1584584224917939503, guid: ee50f875406d24342a5ddcd4b4bcca91, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1818604485127203659, guid: ee50f875406d24342a5ddcd4b4bcca91, type: 3}
       propertyPath: m_Name
       value: Jugador

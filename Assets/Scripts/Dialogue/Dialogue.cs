@@ -6,7 +6,7 @@ using TMPro;
 public class Dialogue : MonoBehaviour
 {
     [System.Serializable]
-    struct Conver
+    public struct Conver
     {
         public string[] lineas;
     }
@@ -15,105 +15,70 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     private float typingTime = 0.05f;
-    [SerializeField] private Conver[] dialogueLines;
+    public Conver[] dialogueLines;
     private bool isPlayerInRange;
     private bool didDialoguelogueStart;
-    private int lineIndex;
+    public int lineIndex;
     public int converIndex = 0;
     private bool didDialogueStart;
 
     //Update is called once per frame
     void Update()
     {
-        if (isPlayerInRange && Input.GetKey(KeyCode.V))
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.V))
         {
             if (!didDialoguelogueStart)
             {
                 StartDialogue();
             }
-            else if (dialogueText.text == dialogueLines[converIndex].lineas[lineIndex])
+            else
             {
-                NextConver();
+                lineIndex++; //contador de lineas
+                StopAllCoroutines();//para todas las corrutinas para no solapar lineas
+                StartCoroutine(Showline());
             }
         }
     }
-    private void NextDialogueLines()
-    {
-        lineIndex++;
-        if (lineIndex < dialogueLines.Length)
-        {
-            StartCoroutine(Showline());
-        }
-        else
-        {
-            didDialogueStart = false;
-            dialoguePanel.SetActive(false);
-            //dialogueNPC.SetActive(true);
-            Time.timeScale = 1f;
-        }
-    }
-    private void NextConver()
-    {
-        if (lineIndex == dialogueLines.Length)
-        {
-            converIndex++;
-            StartCoroutine(Showline());
-
-        }
-        else
-        {
-            didDialogueStart = false;
-            dialoguePanel.SetActive(false);
-            //dialogueNPC.SetActive(true);
-            Time.timeScale = 1f;
-        }
-    }
-    //if (lineIndex == dialogueLines.Length)
-    //{
-    //    didDialogueStart = false;
-    //    dialoguePanel.SetActive(false);
-    //    //dialogueNPC.SetActive(true);
-    //    Time.timeScale = 1f;
-
-    //}
-
 
     private void StartDialogue()
     {
         didDialoguelogueStart = true;
         dialoguePanel.SetActive(true);
-        //dialogueNPC.SetActive(false);
         lineIndex = 0;
-        Time.timeScale = 0f;
         StartCoroutine(Showline());
     }
 
 
     private IEnumerator Showline()
     {
-        dialogueText.text = string.Empty;
-        foreach (char ch in dialogueLines[converIndex].lineas[lineIndex])
+        if (lineIndex >= dialogueLines[converIndex].lineas.Length) // ha llegado al fin de la conver
         {
-            dialogueText.text += ch;
-            yield return new WaitForSecondsRealtime(typingTime);
+            didDialoguelogueStart = false;
+            dialoguePanel.SetActive(false);
+            lineIndex = 0; //reinica las líneas
+            converIndex++; //cambiar conver
+            converIndex %= dialogueLines.Length; //reinicia las convers al final del todo
+        }
+        else
+        {
+            dialogueText.text = string.Empty;
+            foreach (char ch in dialogueLines[converIndex].lineas[lineIndex])
+            {
+                dialogueText.text += ch;
+                yield return new WaitForSecondsRealtime(typingTime);
+            }
         }
     }
-
-
-
-
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("Player"))
             isPlayerInRange = true;
-        //dialogueNPC.SetActive(true);
     }
 
     private void OnTriggerExit(Collider collision)
     {
         if (collision.gameObject.CompareTag("Player"))
             isPlayerInRange = false;
-        //dialogueNPC.SetActive(false);
     }
 }
 //using System.Collections;
